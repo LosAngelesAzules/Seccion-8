@@ -37,7 +37,9 @@ a {
 .button-menu-toggle {
     display: none;
 }
-
+.greeting {
+    text-align: center;
+    }
 @media (max-width: 768px) {
     .column {
     flex: 100%;
@@ -45,7 +47,6 @@ a {
     .nav-links {
     display: none;
     }
-   
     .button-menu-toggle {
     display: block;
     background-color: white;
